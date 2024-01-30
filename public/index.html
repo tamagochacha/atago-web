@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
     <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +16,6 @@
             <div class="header-left">
                 <img src="img/title.png" alt="校章" class="logo"/>
             </div>
-            <div class="menu"><i class="fa-solid fa-bars fa-flip-both fa-2xl " style="color: #ffffff;"></i></div>
             <div class="header-right">
                 <li>
                     <div class="sukima"></div>
@@ -42,6 +42,8 @@
                     <a href="#">今月の予定</a>
                 </li>
             </div>
+            <div id="modal-btn"><i class="fa-solid fa-bars fa-flip-both fa-2xl " style="color: #ffffff;"></i></div>
+
         </div>
     </header>
     <div id="top">
@@ -84,5 +86,18 @@
         <p>校長 さいとうけんぞう</p>
     </div>
     </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <ul>
+                <li><a href="https://omocoro.jp/kiji/431055/">今月の予定</a></li>
+                <li><a>Blog</a></li>
+                <li><a>生徒の生活</a></li>
+                <li><a>リンク集</a></li>
+                <li><a>学校概要</a></li>
+                <li><a>学校紹介</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

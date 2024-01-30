@@ -1,4 +1,4 @@
-@media all and (max-width:1024px){
+@media only screen and (max-width:1024px){
     .header-right{
         display: none;
     }
@@ -14,11 +14,18 @@
     }
     #top-mobile{
         display: block;
+        background-image: url(img/sumaho\ you\ atg.png);
+        background-size: cover;
+        height: 500px;
     }
     #top{
         display: none;
     }
     #top-mobile p {
         font-size: 60px;
+        margin: 0 auto;
+    }
+    .menu i {
+        padding: 5px;
     }
 }
