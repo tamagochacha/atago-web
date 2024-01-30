@@ -2,7 +2,7 @@
     .header-right{
         display: none;
     }
-    .menu{
+    #modal-btn{
         display: block;
     }
     .top-container p {
