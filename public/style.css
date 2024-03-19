@@ -106,7 +106,7 @@ header li{
     height: 2px;
     display: inline-block;
 }
-#midashi{
+.midashi{
     font-family: "tamanegi",sans-serif;
     color: white;
     background-color: black;
@@ -116,7 +116,7 @@ header li{
     display: flex;
     
 }
-#midashi h1 {
+.midashi h1 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
